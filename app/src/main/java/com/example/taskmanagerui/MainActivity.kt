@@ -70,7 +70,7 @@ fun TaskManagerCard(
         Image(painter = imagePainter, contentDescription = null)
         Text(
             text = allTasksCompleted,
-            modifier = Modifier.padding(start = 24.dp, end = 8.dp),
+            modifier = Modifier.padding(top = 24.dp, bottom = 8.dp),
             fontWeight = FontWeight.Bold
         )
         Text(
